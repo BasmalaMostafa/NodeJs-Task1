@@ -1,0 +1,74 @@
+
+
+#header{
+    margin :auto;
+}
+
+#header h1{
+    position: relative;
+    left: 30%;
+    font-size: 48px;
+    font-weight: 600;
+    font-family:'Courier New', Courier, monospace;
+    color: #474747;
+    
+}
+
+#header p{
+   color: #878787;
+   font-size: 14.1px;
+   font-weight: 500;
+   width:60%;
+   position: relative;
+   left: 15%;
+}
+
+.item{
+    font-family: 'Raleway', sans-serif;
+    margin: 20px;
+    background-color:#f8f9fa; ;
+}
+
+.item img{
+    width: 330px;
+     height: 148px ;
+}
+
+.item h2{
+    font-weight: 600;
+    color: #474747;
+    font-size: 20px;
+}
+
+.item h2,p{
+   padding-left: 10%;
+
+}
+
+.text{
+    font-size: 14.1px;
+    color: #878787;
+    line-height: 2.2;
+    font-weight: 500;
+}
+
+.numCourses{
+    font-size: 18px;
+    font-weight: 600;
+    color: #d82a4e;
+}
+
+.items{
+    display: flex;
+   flex-wrap: wrap;
+   position: relative;
+   justify-content: center;
+}
+
+.item:hover{
+    background-color: #d82a4e;
+}
+
+.item:hover h2, .item:hover p{
+    color: #fff;
+}
